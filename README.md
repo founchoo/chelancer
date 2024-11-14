@@ -30,9 +30,15 @@ Given chemical equation below
    ```
    *Note that count on the right of '=' should be negative, see below for reason.*
 4. Build linear equation system
-   $\begin{bmatrix} 2 & 0 & -2 & 0 \\\ 0 & 2 & -1 & 0 \\\ 1 & 0 & 0 & 1 \end{bmatrix}$
+   ```math
+   \begin{bmatrix}
+   2 & 0 & -2 & 0 \\
+   0 & 2 & -1 & 0 \\
+   1 & 0 & 0 & 1
+   \end{bmatrix}$
+   ```
    *We add last row here cuz we wanna this matrix has only one solution so you may write like `0 1 0 2`, `0 0 1 1`, or whatever, that's all ok.*
-5. Solve it and all done!
+6. Solve it and all done!
 
 ## Known issues
 
