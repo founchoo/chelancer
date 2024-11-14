@@ -32,8 +32,8 @@ Given chemical equation below
 4. Build linear equation system
    $
    \begin{bmatrix}
-   2 & 0 & -2 & 0 \\
-   0 & 2 & -1 & 0 \\
+   2 & 0 & -2 & 0 \\\
+   0 & 2 & -1 & 0 \\\
    1 & 0 & 0 & 1
    \end{bmatrix}
    $
